@@ -1,0 +1,65 @@
+{
+  "Format": "2.8.0",
+  "CustomLocations": [
+    // add the in-game location
+    {
+      "Name": "Custom_DrunkenDuck",
+      "FromMapFile": "assets/DrunkenDuck.tmx"
+    },
+    {
+      "Name": "Custom_DDInsideBroken",
+      "FromMapFile": "assets/DDInside_Broken.tmx"
+    }
+  ],
+
+
+
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/DDBackwoods.tmx",
+      "FromArea": {
+        "X": 22,
+        "Y": 4,
+        "Width": 8,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 22,
+        "Y": 4,
+        "Width": 8,
+        "Height": 10
+      },
+      "PatchMode": "Replace"
+
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "AddWarps": [
+        "24 6 Custom_DrunkenDuck 10 24",
+        "25 6 Custom_DrunkenDuck 11 24"
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Minecarts",
+      "TargetField": [ "Default", "Destinations" ], // for the "Default" network, edit the "Destinations" field
+      "Entries": {
+        "DrunkenDuck": {
+          "Id": "DrunkenDuck",
+          "DisplayName": "The Drunken Duck",
+
+          "TargetLocation": "Custom_DrunkenDuck",
+          "TargetTile": {
+            "X": 4,
+            "Y": 18
+          },
+          "TargetDirection": "right"
+        }
+      }
+    }
+
+  ]
+}

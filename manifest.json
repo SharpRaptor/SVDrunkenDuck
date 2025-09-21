@@ -1,0 +1,11 @@
+{
+  "Name": "AngelsDescent",
+  "Author": "sharpraptor",
+  "Version": "0.1.0",
+  "Description": "First attempt at adding things with a mod. Might add new characters",
+  "UniqueID": "sharpraptor.AngelsDescent",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

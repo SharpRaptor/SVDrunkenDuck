@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset version="1.10" tiledversion="1.11.2" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+ <image source=".paths.png" width="64" height="256"/>
+ <tile id="35">
+  <properties>
+   <property name="GreenRain" value="asdf"/>
+  </properties>
+ </tile>
+</tileset>
