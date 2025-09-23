@@ -59,7 +59,77 @@
           "TargetDirection": "right"
         }
       }
-    }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Kaya",
+      "FromFile": "assets/Kaya/KayaSprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Kaya",
+      "FromFile": "assets/KayaPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/{{ModId}}_Kaya",
+      "FromFile": "assets/KayaDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue{{ModId}}_Kaya",
+      "FromFile": "assets/KayaMarriageDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_Kaya",
+      "FromFile": "assets/KayaSchedule.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Kaya": {
+          "DisplayName": "Kaya", // this can use {{i18n:}} to support translations
+          "BirthSeason": "Spring",
+          "BirthDay": 17,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "Calendar": "HiddenUntilMet",
+          "CanBeRomanced": true,
 
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_DDInsideBroken",
+              "Tile": {
+                "X": 22,
+                "Y": 20
+              },
+              "Direction": "down"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "{{ModId}}_Kaya": "For Me? Crackin'! Love It!/keg_wine 302 749 109/Oh Cheers! Wanted one of These./keg_juice -79 304 395/...Erm... Run me by what this is again?/-21/Ugh. *gags*. Sorry this aint for me love./444 -102/Oh. Thank you. I wasn't expecting anything'/-4/ "
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "{{ModId}}_Kaya0": "I can't believe I am about to be married!$h",
+        "{{ModId}}_Kaya1": "I need to tell Logan I'm Engaged!!"
+      }
+    }
   ]
 }
