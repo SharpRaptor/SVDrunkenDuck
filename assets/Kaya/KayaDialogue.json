@@ -1,7 +1,12 @@
 {
-  "Introduction": "Hello, it's nice to meet you. $h#$e#You picked a good time to move here... The spring is lovely.",
-  "AcceptGift_(O)StardropTea": "Oh, wow... I had a sip of this stuff when I was a kid, and I've never forgotten the taste.",
-  "AcceptBirthdayGift_Positive": "Hey, thanks a bunch, @! This makes my birthday feel special.$h",
+  "Introduction": "Oh Hi! You must have re-opened the cave entrance, it's great to see people again!.$h#$e#Welcome to the Drunken Duck...$h#$b#Or what's left of it anyway.$s",
+  "cc_Minecart": "I heard you got the minecarts up and running again. Awesome! I can get in to town quicker now.$h#$b#They're fun to ride too",
+  "AcceptBirthdayGift_Positive": "Birthday? Today? Oh is it that day already? Thanks so much!!$h",
+  "AcceptGift_(O)StardropTea": "Oh, wow... I think my dad gave me Logan and Lily a sip of this stuff when were little, haven't forgotten the taste since.",
+
+
+
+
   "FlowerDance_Accept": "You want to dance with me? Yes!$h#$e#I was wondering if you'd ask me...$h",
   "dating_Leah": "I had a feeling you would ask me...$l",
   "married_Elliott": "Elliott's a real romantic... I'm sure your days will be filled with poetry!$h",
