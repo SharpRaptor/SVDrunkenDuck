@@ -1,0 +1,36 @@
+debug warp backwoods
+debug warp DrunkenDuck
+debug warp Custom_DDInsideBroken
+
+debug fuzzyitemnamed iridiumaxe
+
+
+custom location - drunken duck outside
+custom location - drunken duck inside
+new NPC - Kaya - with shop
+new skill tree - brewing
+
+stretch goals
+new processing - distillery
+upgrade / fixable drunken duck 
+new NPC - Tryx - card games
+new NPC - Kat - vender - potions
+new noc - pip - food merchant? - random buff like goddess statue?
+
+for fixed music:
+PIRATE_THEME 
+PIRATE_THEME(muffled)
+
+
+
+"For Me? Crackin'! Love It!/keg_wine 302 749 109
+/Oh Cheers! Wanted one of These./keg_juice -79 304 395
+/...Erm... Run me by what this is again?/-21
+/Ugh. *gags*. Sorry this aint for me love./444 -102
+/Oh. Thank you. I wasn't expecting anything'/-4/ "
+
+
+
+https://mateusaquino.github.io/stardewids/
+https://stardewvalleywiki.com/Modding:Items#Item_types
+https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-6/558125441_1334569511365381_5762766988920141698_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rUHWPf9cmA4Q7kNvwFmstYt&_nc_oc=AdkUvA8e2YlncBA3qFtMOvyyrUa42MQCnV4WdgnTrKYGak-cqUn4Xnqvybk9-pb8lQc&_nc_zt=23&_nc_ht=scontent-lhr6-2.xx&_nc_gid=vEs9EITLGUcE6JD5hjyyxA&oh=00_AfcbUpw1M9CSG73L0MRe2O-RepX3EeBWeMpgRAgWG2t6RQ&oe=68E737AC
