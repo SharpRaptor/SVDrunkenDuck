@@ -2,7 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="5">
  <properties>
   <property name="Doors" value="21 16 1 120"/>
-  <property name="Music" value="PIRATE_THEME"/>
+  <property name="Music" value="communityCenter"/>
   <property name="Warp" value="13 21 Custom_DrunkenDuck 15 14 14 21 Custom_DrunkenDuck 15 14"/>
  </properties>
  <tileset firstgid="1" source="z_DDindoors..tsx"/>

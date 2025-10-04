@@ -3,7 +3,7 @@
  <properties>
   <property name="AmbientLight" value="10 10 10"/>
   <property name="Light" value="0 15 4 9 2 4 19 2 4 9 11 5 17 11 5 13 10 6 11 12 6 13 11 1 14 11 1"/>
-  <property name="Music" value="PIRATE_THEME(muffled)"/>
+  <property name="Music" value="Cavern"/>
   <property name="Warp" value="10 25 Backwoods 24 7 11 25 Backwoods 25 7 "/>
  </properties>
  <tileset firstgid="1" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
