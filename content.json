@@ -68,22 +68,22 @@
     {
       "Action": "Load",
       "Target": "Portraits/{{ModId}}_Kaya",
-      "FromFile": "assets/KayaPortraits.png"
+      "FromFile": "assets/Kaya/KayaPortraits.png"
     },
     {
       "Action": "Load",
       "Target": "Characters/Dialogue/{{ModId}}_Kaya",
-      "FromFile": "assets/KayaDialogue.json"
+      "FromFile": "assets/Kaya/KayaDialogue.json"
     },
     {
       "Action": "Load",
       "Target": "Characters/Dialogue/MarriageDialogue{{ModId}}_Kaya",
-      "FromFile": "assets/KayaMarriageDialogue.json"
+      "FromFile": "assets/Kaya/KayaMarriageDialogue.json"
     },
     {
       "Action": "Load",
       "Target": "Characters/schedules/{{ModId}}_Kaya",
-      "FromFile": "assets/KayaSchedule.json"
+      "FromFile": "assets/Kaya/KayaSchedule.json"
     },
     {
       "Action": "EditData",
